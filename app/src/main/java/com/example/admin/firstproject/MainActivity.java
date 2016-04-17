@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         RelativeLayout mainLayout = new RelativeLayout(this);
 
         Button button = new Button(this);
-        button.setText("Click Me change by Ankit for pull request");
+        button.setText("Click Me change by Muthu for pull request");
 
 
         RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(
