@@ -18,7 +18,8 @@ public class MainActivity extends AppCompatActivity {
         RelativeLayout mainLayout = new RelativeLayout(this);
 
         Button button = new Button(this);
-        button.setText("Click Me");
+
+        button.setText("Click Me ");
 
 
         RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(
@@ -30,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
         layoutParams.addRule(RelativeLayout.CENTER_VERTICAL);
 
         mainLayout.addView(button, layoutParams);
-        mainLayout.setBackgroundColor(Color.RED);
-        button.setBackgroundColor(Color.GREEN);
+        mainLayout.setBackgroundColor(Color.WHITE);
+        button.setBackgroundColor(Color.YELLOW);
         setContentView(mainLayout);
     }
 
