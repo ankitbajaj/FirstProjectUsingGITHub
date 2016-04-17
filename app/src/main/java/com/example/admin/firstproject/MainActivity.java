@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
         RelativeLayout mainLayout = new RelativeLayout(this);
 
         Button button = new Button(this);
-
         button.setText("Click Me ");
 
 
