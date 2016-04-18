@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 //        setContentView(R.layout.activity_main);
         RelativeLayout mainLayout = new RelativeLayout(this);
 
-        Button button = new Button(this);
+        Button button = new Butto(this);
         button.setText("Click Me change by Muthu for pull request");
 
 
