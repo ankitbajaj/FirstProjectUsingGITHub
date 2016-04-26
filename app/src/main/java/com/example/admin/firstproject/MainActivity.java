@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         RelativeLayout mainLayout = new RelativeLayout(this);
 
         Button button = new Button(this);
-        button.setText("Change text for jenkins");
+        button.setText(" Add More changes Change text for jenkins");
 
 
         RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(
